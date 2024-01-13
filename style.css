@@ -1,13 +1,19 @@
 .frame{
   border: solid 2px gray;
-  margin: 3% 5% 3% 5%;
+  margin:  5% 3% 5%;
+  padding: 10px;
 }
 
 .study-block {
     border: solid 2px gray;
-      margin: 3% 5% 3% 5%;
+    width: 23% ;
+      margin-top: 5px ;
+      margin-bottom: 5px;
+}
+  
+#study-block-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#study-block-container{
-  display: flex;
-}
