@@ -4,27 +4,114 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <title>Document</title>
+  <title>we-help-resume</title>
 </head>
 
 <body>
-
-  <div class="self-introducuion">Soy Lucas</div>
-  <div class="how-I-study">AC</div>
-  <div class="how-plan-time-schedule"> 8hour /day</div>
-  <div class="which-company">serch company</div>
-  <div class="how-to-treat-emo"></div>
-  <div class="introduce-your-thought"></div>
-  <div class="persuade-company"></div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- if I want show something -->
+  <div class="container"> 
+    <h1> 200字內自我介紹</h1>
+    <div id="self-introducuion" class="frame">Soy Lucas
+      <img src="" alt="painting">
+    </div>
+    <div id="how-I-study-container" class="frame">
+      <h1 class="how-I-study-title">為學習˙做過什麼努力</h1>
+      <div id="study-block-container">
+        <div class="AC-class study-block">
+          簡單敘述課程
+          <!-- Modal -->
+          <div class="modal fade" id="AC-C1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="AC-C1-title">AC-C1</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="AC-works study-block">
+          <!-- icon 加敘述並導向codepen 連結 -->
+          <div class="introduciton-page"> introdctuion</div>
+          <div class="member-list">member-list</div>
+          <div class="pairgmae">pairgmae</div>
+        </div>
+        <div class="We-hlep-question study-block">
+          每日解題
+        </div>
+        <div class="now-I-learn study-block">
+          後端
+        </div>
+      </div>
+    </div>
+    <div id="how-plan-time-schedule" class="frame">
+      <h1>怎麼安排學習</h1>
+      <i>
+      以週為單位 任務導向-<br>
+      以table實作<br>
+      加入toggle <br>
+      以天為單位 學習 複習 實作 發想<br>
+      </i>
+       </div>
+    <div id="which-company" class="frame">
+      search company
+    </div>
+    <div id="how-to-treat-emo" class="frame">
+      產生負面情緒<br>
+      分析系統<br>
+      解決系統<br>
+      回饋<br>
+    </div>
+    <div id="introduce-your-thought" class="frame">
+      建立簡單的框架
+    </div>
+    <div id="persuade-company" class="frame">
+      目標錄取
+    </div>
+  </div>
 
 
   <script src="https://kit.fontawesome.com/5033b63223.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
-  <script src="index.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>

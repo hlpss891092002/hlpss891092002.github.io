@@ -1,0 +1,13 @@
+.frame{
+  border: solid 2px gray;
+  margin: 3% 5% 3% 5%;
+}
+
+.study-block {
+    border: solid 2px gray;
+      margin: 3% 5% 3% 5%;
+}
+
+#study-block-container{
+  display: flex;
+}
