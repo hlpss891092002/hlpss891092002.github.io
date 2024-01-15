@@ -1,19 +1,27 @@
 .frame{
   border: solid 2px gray;
   margin:  5% 3% 5%;
-  padding: 10px;
+  padding: 3%;
 }
 
 .study-block {
     border: solid 2px gray;
-    width: 23% ;
-      margin-top: 5px ;
-      margin-bottom: 5px;
+    width: 25% ;
+    height: 170px ;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+    padding: 1%;
+    font-size: 14px;
 }
   
-#study-block-container {
+.block-container {
+  padding: 2%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
+.time-block{
+  border: solid 2px gray;
+
+}
