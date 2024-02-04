@@ -1,10 +1,17 @@
+nav{
+  background-color:rgb(182, 203, 224);
+  display: flex;
+  justify-content: center;
+}
+
 .frame{
   border: solid 2px gray;
   margin:  5% 3% 5%;
   padding: 2%;
 }
 
-.study-block {    
+.study-block {  
+      
     width: 30% ;
     height: 170px ;
     margin: 2% 1% 2% 1%;
